@@ -1,0 +1,820 @@
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E5E5E5;
+}
+.container{
+    background-color: rgb(253, 253, 253);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    border:1px solid transparent;
+}
+.container-wrapper-first{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border:1px solid transparent;
+}
+.call-receptions{
+    display: flex;
+}
+.contact-wrapper{
+    display: flex;
+}
+.phone-img{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+strong{
+    font-size: 16px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    display: flex;
+}
+.words-phone{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    color:lightslategray;
+    width: 121px;
+    border: 1px solid transparent;
+}
+.dental-emblem-smile{
+    margin-left: 200px;
+}
+.content-smile{
+    margin-left: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    display: flex;
+}
+.content-smile p{
+    margin-top: 12px;
+    font-size: 30px;
+    color: #FFD600;
+}
+.teskari{
+    margin-right: 5px;
+    text-shadow: 1px 1px 3px rgba(141, 110, 0, 0.25);
+    transform: rotate(90deg);
+}
+.ong{
+    text-shadow: 1px 1px 3px rgba(141, 110, 0, 0.25);
+    transform: rotate(90deg);
+}
+.words-smile{
+    margin-left: -1px;
+    margin-top: -41px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0055B8;
+}
+.when-online{
+    margin-left: 235px;
+    display: flex;
+}
+.green{
+    color: #00B007;
+}
+.oclock{
+    margin-top: 19px;
+    margin-right: 10px;
+}
+.clock-words{
+    font-size: 15px;
+}
+
+/* tugadi-contact-qismi */
+
+
+.link-bar,.link-bar2{
+    width: 900px;
+    z-index: 50;
+    top: 114px;
+    position: absolute;
+    background: #0055B8;
+    border-radius: 5px;
+    display: flex;
+}
+.link-bar2{
+    position: absolute;
+    top: 4085px;
+    width: 900px;
+    z-index: 50;
+    margin-left: 154px;
+    position: absolute;
+    background: #0055B8;
+    border-radius: 5px;
+    display: flex;
+}
+.ul{
+    list-style-type: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.links a:hover{
+    text-decoration: underline 1px solid lightsteelblue;
+}
+.links a{
+    margin-right: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.social-sites{
+    margin-left: 305px;
+    display: flex;
+}
+.social-sites a{
+    margin-right: 10px;
+}
+
+/* tugadi-social-sites-qismi */
+.bgk{
+    margin-top: 50px;
+}
+.bk-position{
+    margin-left: 145px;
+    width: 500px;
+    position: absolute;
+    top: 333px;
+    border:1px solid transparent;
+}
+.bk-text{
+    width: 371px;
+    color: #272727;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+.bk-headre{
+    margin-top: -30px;
+    width: 431px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #272727;
+}
+.btn-bk button{
+    margin-top: -17px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    border:1px solid #0055B8;
+    background-color: #0055B8;
+    border-radius: 5px;
+}
+.btn-bk button:hover{
+    background-color: #0a3c75;
+}
+.btn-position{
+    margin-left: 145px;
+    margin-top: -109px;
+}
+.left{
+    width: 40px;
+    height: 32px;
+    font-size: 17px;
+    font-weight: bolder;
+    background: #FFD600;
+    border-radius: 5px;
+    border:1px solid #ffa600;
+    margin-right: 7px;
+}
+.right{
+    margin-top: -5px;
+    border:1px solid #ffa600;
+    width: 50px;
+    height: 40px;
+    background: #FFD600;
+    border-radius: 5px;
+    font-size: 17px;
+}
+/* tugadi-positioni-kop-qismi */
+.ikkinchi-positioni{
+    width: 928px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid transparent;
+    margin-top: 30px;
+    display: flex;
+}
+.first-position-wrapper{
+    margin-right: 0px;
+}
+.first-position-wrapper,.second-position-wrapper{
+    background: #FFD600;
+    border-radius: 5px;
+    width: 310px;
+    height: 275px;
+    border:1px solid transparent;
+}
+.first-wrp-position,.second-wrp-position{
+    border:1px solid transparent;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.second-wrp-position,.second-position-wrapper{
+    background: #FFE040;
+}
+.img-first img{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 84px;
+    background-color: #FFD600;
+}
+.head-teeth span{
+    margin-top: 5px;
+    margin-left: 94px;
+    font-weight: bolder;
+    font-family: Roboto;
+}
+.paraghraph-teeth{
+    margin-left: 20px;
+    width: 250px;
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 25px;
+    color: #272727;
+}
+.third-position-wrapper,.third-position-wrapper2{
+    width: 400px;
+    background: #0055B8;
+    border-radius: 5px;
+}
+.third-position-wrapper2{
+    position: absolute;
+    top: 3734px;
+    margin-left: 140px;
+}
+.h3{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+}
+.thirs-position-input-wrapper,.thirs-position-input-wrapper2{
+    margin-top: -20px;
+}
+.thirs-position-input-wrapper input{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    width: 320px;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 10px;
+    background: #0055B8;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.third-position-checkboks-flex ,.third-position-checkboks-flex2{
+    display: flex;
+}
+.input-btn-wrapper button{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+    background: #FFD600;
+    border-radius: 5px; 
+    color: #272727;
+    border:1px solid #ffa600;
+}
+.p-third-wrapper-position{
+    width: 230px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+.input-third-position-chekbox input{
+    width: 20px;
+    height: 20px;
+    margin-top: 18px;
+    margin-left: 80px;
+}
+/* ikkinchi-position-qismi-tugadi */
+.hr{
+    margin-top: 30px;
+    background: #FFD600;
+    height: 3px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.h4{
+    font-weight: 600;
+    font-size: 30px;
+    font-family: Roboto;
+    width: 116px;
+    border:1px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paragraph-service{
+    margin-top: -40px;
+    width: 437px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: lightslategray;
+}
+
+/* services */
+
+.dental-uls-wrapper{
+    display: flex;
+    width: 888px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid transparent;
+}
+.dental-slider-btn button{
+    margin-top: 101px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: bolder;
+    color: #0055B8;
+    font-size: 20px;
+    background-color: white;
+    border: #0055B8 1px solid;
+}
+.slider-right-button button{
+    margin-top: 101px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: bolder;
+    color: #0055B8;
+    font-size: 20px;
+    background-color: white;
+    border: #0055B8 1px solid;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+.lies-wr{
+    margin-right: 40px;
+    background: #fafafa;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 150px;
+    border: 1px solid transparent;
+}
+#liy{
+    margin-left: 20px;
+}
+.liy-img{
+    margin-top: 5px;
+    margin-left: 22px;
+}
+.liy-img2{
+    margin-top: 5px;
+    margin-left: 11px;
+}
+.liy-img3{
+    margin-top: 5px;
+    margin-left: 24px;
+}
+.liy-img4{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.liy-p{
+    text-align: center;
+    width: 100px;
+    font-size: 15px;
+    font-family: Roboto;
+    color: #272727;
+}
+.liy-hr{
+    margin-left: 40px;
+   width: 20px; 
+   height: 2px;
+   background-color: black;
+   border-radius: 30%;
+}
+.liy-money{
+    font-size: 14px;
+    margin-left: 32px;
+    color: rgba(0, 0, 0, 0.25);
+}
+.liy-dollor{
+    margin-left: 30px;
+    margin-top: -10px;
+    font-weight: bold;
+    color: #0A60C3;
+    margin-bottom: 10px;
+}
+
+/* ul-li-qismi-tugadi */
+
+.use-with-img-flex{
+    display: flex;
+    margin-top: 30px;
+}
+.use-hr{
+    margin-top: 30px;
+    background: #FFD600;
+    height: 3px;
+    width: 50px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.use-img{
+    margin-top: 41px;
+}
+.use-subtitle{
+    margin-left: 60px;
+    width: 350px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #272727;
+}
+.use-body-text{
+    font-size: 15px;
+    margin-top: -11px;
+    margin-left: 60px;
+    width: 595px;
+}
+.first-flex-wr{
+    margin-left: 60px;
+    display: flex;
+}
+.text-flex-wrp{
+    width: 510px;
+}
+.text-flex-wrp p{
+    font-size: 15px;
+    margin-top: -10px;
+}
+.img-flex-wr{
+    margin-top: -5px;
+    margin-right: 7px;
+}
+.img-flex-wr3{
+    margin-top: -5px;
+    margin-right: 10px; 
+}
+/* dental-qismi tugadi */
+.h4_2{
+    font-weight: 600;
+    font-size: 30px;
+    font-family: Roboto;
+    width: 246px;
+    border:1px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h4_2paragraph{
+    margin-top: -53px;
+    width: 743px;
+    font-size: 15.2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    color: #4D4D4D;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.big-img-wrapper-slider-flex{
+    display: flex;
+    width: 976px;
+    margin-left: auto;
+    margin-right: auto;
+    border: transparent 1px solid;
+}
+.btn-slider-img button{
+    background-color: white;
+    margin-top: 155px;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #1D6ECB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 17px;
+    color: royalblue;
+    font-weight: bolder;
+}
+.btn-slider-img-right button{
+    margin-top: 155px;
+    margin-left: -30px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #1D6ECB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 17px;
+    color: royalblue;
+    font-weight: bolder;
+}
+.img-wrapper-first{
+    width: 250px;
+    margin-right: 50px;
+    border: transparent 1px solid;
+}
+.img-wrapper-first span{
+    font-weight: bolder;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+}
+.img-wrapper-first p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 1px;
+    font-size: 15px;
+}
+/* bu-qism-ham-tugadi */
+.sign-wrapper-flex-wrapp{
+    margin-top: 60px;
+    display: flex;
+}
+.sign-wrapper-text-wrapper{
+    margin-left: 60px;
+}
+.use-hr_2{
+    margin-left: 544px;
+    margin-top: 30px;
+    background: #FFD600;
+    height: 3px;
+    width: 50px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.subtitile-this-wrapper{
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sign-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+.sign-wrapper-img-wrapper{
+    margin-left: 46px;
+}
+.sign-flex{
+    margin-left: 320px;
+    margin-top: 20px;
+    display: flex;
+}
+.sign-flex img{
+    margin-right: 10px;
+}
+.btn-sign button{
+    margin-top: 13px;
+    width: 180px;
+    height: 40px;
+    border: 1px solid transparent;
+    background: #0055B8;
+    border-radius: 5px;
+    color: snow;
+}
+
+/* bu-qism2-ham-tugadi */
+.patients-subtitle{
+    width: 304px;
+    margin-left: auto;
+    margin-right: auto;
+    border: transparent 1px solid ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+}
+.patients-paragraph{
+    width: 389px;
+    text-align: center;
+    border: transparent 1px solid;
+    font-family: Roboto;
+    color: #4D4D4D;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35px;
+}
+.patients-flex-wrapper{
+    display: flex;
+    width:926px;
+    margin-left: auto;
+    margin-right: auto;
+    border: transparent 1px solid;
+}
+.lorem-text-patients{
+    width: 270px;
+    font-size: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+}
+.patients-first ,.patients-second{
+    margin-right: 40px;
+    border: solid 1px transparent;
+    width: 280px;
+}
+.patients-btn button{
+    margin-top: 20px;
+    width: 180px;
+    height: 45px;
+    border: 2px solid #0055B8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.patients-btn button:hover{
+    background-color: #0055B8;
+    color: white;
+}
+/* patient-qismi-ham tugadi */
+.map-subtitle{
+    width: 453px;
+    margin-left: auto;
+    margin-right: auto;
+    border: transparent 1px solid ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #272727;
+    font-size: 26px;
+}
+.map-paragraph{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    color: #4D4D4D;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -40px;
+}
+/* map-paragraph tagadi */
+
+.footer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper-map{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-map{
+    width: 400px;
+    background: #0055B8;
+    border: 1px solid #0055B8;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.flex-arienter{
+    position: absolute;
+    display: flex;
+    position: absolute;
+    top: 3734px;
+    margin-left: 833px;
+}
+.flex-arienter p{
+    width: 117px;
+    color: #0055B8;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.links-toplami-links-wrapper{
+    display: flex;
+    width: 891px;
+    margin-left: auto;
+    margin-right: auto;
+    border: transparent 1px solid;
+}
+.links-top{
+    margin-top: 10px;
+    background-color: white;
+}
+.first-link-wrp p,a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+}
+.first-link-wrp span{
+    text-decoration: underline;
+    color: #000000;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+.img-flex{
+    margin-top: 10px;
+    display: flex;
+}
+.img-flex span{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+.opa{
+    margin-top: 13px;
+    font-size: 15px;
+    text-decoration: none;
+    color: lightslategray;
+    font-weight: normal;
+    width: 152px;
+}
+h5{
+    font-family: Roboto;
+    font-size: 17px;
+}
+.second-link-wrp{
+    margin-top: -7px;
+    margin-left: 50px;
+}
+.second-link-wrp a{
+    font-family: Roboto;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 22px;
+}
+.second-link-wrp a:hover{
+    color: blue;
+}
+.third-link-wrp{
+    margin-top: 69px;
+    margin-left: 50px;
+}
+.third-link-wrp a{
+    font-family: Roboto;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 22px;
+}
+.third-link-wrp a:hover{
+    color: blue;
+}
+.chiziq{
+    width: 891px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    height: 2px;
+}
+.hira{
+    color: dimgrey;
+    text-align: center;
+}
